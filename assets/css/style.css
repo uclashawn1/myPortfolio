@@ -52,11 +52,16 @@ body {
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
   }
-  
+  /* .nav-pills {
+    background: green;
+  }
+  .active > li > a:selection {
+    color: red;
+  }
   .navbar {
     background: white;
     border: none;
-  }
+  } */
   
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {

@@ -7,13 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Bootstrap Basic Portfolio</title>
+  <title>Lashawn's Portfolio</title>
 
-  <!-- Boostrap Stylesheet -->
+  <!-- Boostrap Stylesheet
+  Will need to decide if this is the appropriate link. Options. Why this one?
+  Do I need to use a different link - features? - compatability with responsive coding? -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-  <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <!-- My internal CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" media="screen">
 
 </head>
 
@@ -21,23 +23,24 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="index.html" id="logo">Your Name</a>
+      <a class="navbar-brand" href="index.html" id="logo">Lashawn Jones</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <ul class="navbar-nav nav-pills ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
+<!-- added "active"(makes static change) to Li, Plus "nav-pills"(page responsive) in Ul -->
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -53,7 +56,7 @@
         <article class="block">
           <h1 class="block-header">About Me</h1>
           <hr />
-          <img src="assets/imgs/natebeach.jpeg" alt="" id="about-image" />
+          <img src="assets/images/Shawn.jpg" alt="" id="about-image" />
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -79,7 +82,7 @@
   <footer class="footer">
     <div class="two-toned-footer-color"></div>
     <p class="text-muted text-muted-footer text-center">
-      &copy; Copyright
+      Lashawn Jones  &copy; Copyright 2018
     </p>
   </footer>
   <!-- End of footer -->
